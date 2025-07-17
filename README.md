@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Course Platform - Frontend
 
-## Getting Started
+This is the frontend for a course platform built with **Next.js** and **TypeScript**. It includes authentication, dynamic routing, API integration, and responsive UI using TailwindCSS.
 
-First, run the development server:
+---
+
+## 🚀 System Requirements
+
+- **Node.js** v18 or higher
+- **npm** v9 or higher (or use `pnpm` / `yarn`)
+- A modern browser (Chrome, Edge, Firefox, etc.)
+
+---
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Setup & Run Locally
+
+```bash
+
+## 🚀 How to Run
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm (version 7 or higher)
+
+### Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/TruongCongTri/fe-edu-ecommerce-nextjs.git
+cd frontend-test-ver2
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+   
+3. **Create a `.env` file** with these variables:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000
+# Uncomment the line below if you want to use an online backend server
+# NEXT_PUBLIC_API_URL=https://be-edu-ecommerce-nodejs-supabase.onrender.com
+```
+
+4. **Run the development server:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Open your browser:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Navigate to [http://localhost:3000] (http://localhost:3000) to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 Features
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Next.js App Router (`app/` directory)
+- ✅ Tailwind CSS for utility-first styling
+- ✅ Modular component architecture
+- ✅ Clean and scalable project structure
+- ✅ ESLint configured for code quality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ❓ Why Next.js (Without TypeScript)
 
-## Deploy on Vercel
+### Why Next.js?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js offers a robust framework for building React applications with features like:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Server-Side Rendering (SSR)** and **Static Site Generation (SSG)**
+- **API Routes** for backend functionality
+- **Optimized performance** with automatic code splitting
+- **Built-in routing** and **image optimization**
+
+These features make Next.js an excellent choice for developing modern web applications.
+
+### Why Not TypeScript?
+
+While TypeScript provides static typing and can enhance code quality, this project opts for JavaScript to:
+
+- **Reduce complexity** for demonstration purposes
+- **Lower the learning curve** for developers new to TypeScript
+- **Focus on showcasing Next.js features** without additional overhead
+
+This decision aims to keep the project accessible and straightforward.
+
+---
+
+Made with ❤️ by [@TruongCongTri](https://github.com/TruongCongTri)
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you want a **deployment guide (Vercel, Docker, etc.)**, or want to add **API usage instructions** as well.
